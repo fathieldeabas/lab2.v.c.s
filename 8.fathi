@@ -27,4 +27,20 @@ git push origin :test
 remove from local
 git branch -d dev
 git branch -d test
+==================================================================
+1-git tag -a v1.4 -m "annoted tag"
+2-git push origin v1.4
+==================================================================
+1- how to make list of tags ====> git tag
+2-how to remove  tag from local ===> git tag -d v1.4
+2- how to remove  tag from remote ==> git push  origin :refs/tags/v1.4
+==================================================================
+
+
+
+
+
+
+
+
 
