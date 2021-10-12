@@ -1,21 +1,30 @@
-1- mkdir v.c.s
-2- cd v.c.s
-3-git init 
-4- touch 8.fathi
-5- git add 8.fathi 
-6- git commit -m "my first file"
-7- git branch -M main
-8- git remote add origin git@github.com:fathieldeabas/lab1.v.c.s.git  #for ssh
-9-git push origin main 
+1- mkdir v.c.s1
+2- git init
+3-touch 8.fathi
+4-vim 8.fathi
+5-git add .
+6-git commit -M main
+7-git  remote add origin git@github.com:fathieldeabas/lab2.v.c.s.git
+8-git push origin main 
+9-git branch test 
+10-git branch dev
+11-git checkout test 
+12-touch file_test
+13-git checkout dev
+14-touch file_dev
+15-git checkout main 
+16-git merge test
+17-git merge dev
+18-git add .
+19-git commit -m"update"
+20-git push origin dev
+21-git push origin test 
+==================================================================
+remove from remote
+git push origin :dev
+git push origin :test 
 
+remove from local
+git branch -d dev
+git branch -d test
 
-
-=================================================================
-for modify 
-1- git pull origin main
-2- vim 8.fathi 
-# make change 
-:wq
-git add 8.fathi
-git commit -m "my change"
-git push origin main 
