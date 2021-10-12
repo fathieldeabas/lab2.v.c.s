@@ -1,0 +1,21 @@
+1- mkdir v.c.s
+2- cd v.c.s
+3-git init 
+4- touch 8.fathi
+5- git add 8.fathi 
+6- git commit -m "my first file"
+7- git branch -M main
+8- git remote add origin git@github.com:fathieldeabas/lab1.v.c.s.git  #for ssh
+9-git push origin main 
+
+
+
+=================================================================
+for modify 
+1- git pull origin main
+2- vim 8.fathi 
+# make change 
+:wq
+git add 8.fathi
+git commit -m "my change"
+git push origin main 
