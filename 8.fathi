@@ -20,7 +20,7 @@
 20-git push origin dev
 21-git push origin test 
 ==================================================================
-remove from remote
+remo from remote
 git push origin :dev
 git push origin :test 
 
